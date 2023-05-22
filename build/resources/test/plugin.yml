@@ -1,0 +1,12 @@
+main: Main
+name: UpdateManX
+version: 1.0-SNAPSHOT
+commands:
+  ing:
+    permission: inggame.admin
+  party:
+    aliases:
+     - p
+permissions:
+  inggame.admin:
+    default: op
