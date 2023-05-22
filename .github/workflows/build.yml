@@ -6,6 +6,9 @@ on:
       - main
 jobs:
   gradle:
+    permissions:
+      pull-requests: write
+      checks: write
     strategy:
       matrix:
         os: [ ubuntu-latest ]
